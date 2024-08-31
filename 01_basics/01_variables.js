@@ -3,6 +3,7 @@ let accountEmail = "12vermapriyanshu@gmail.com"
 var accountPassword = "1234567"
 accountCity = "bihar sharif"
 let accountState;
+let accounttown;
 
 // accountId = 2 // not allowed
 
@@ -19,4 +20,4 @@ because of issue in block scope and functional scope
 
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState, accounttown])
